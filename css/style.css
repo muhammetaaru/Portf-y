@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+:root {
+    scroll-behavior: smooth;
+
+
+    --renk-gökyüzüsağ:#EDEAE4;
+    --renk-gökyüzüsol:#E8E9ED;
+    --renk-gökyüzüüst:#F6F6FE;
+    --renk-güneş:#E8C8A9;
+    --renk-saç:#0B0C07;
+    --renk-lacivertmont:#0B0C0D;
+    --renk-çantalacivert:#111425;
+    --renk-kaldırım:#7C7C88;
+    --renk-deniz:#AFB1B5;
+    --renk-bayrak:#DA98A1;
+
+    --image-ovallik:16px;
+    --image-ovallik2:32px;
+}
+li {
+    list-style-type: none;
+}
+.flex-kutu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-style: var(--renk-lacivertmont);
+}
+.isim{
+    font-weight: 400;
+}
