@@ -46,9 +46,4 @@ li {
 .italic {
     font-style: italic;
 }
-.bold {
-    font-style: var(--renk-lacivertmont);
-}
-.isim{
-    font-weight: 400;
-}
+    
