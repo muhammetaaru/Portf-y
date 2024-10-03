@@ -2,13 +2,18 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+body {
+    margin: 0;
+
+    background:url(/images/pexels-cottonbro-9694217.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 100vh;
+}
 img {
     max-width: 100%;
 }
-body {
-    margin: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -16,20 +21,15 @@ a {
     max-width: 1200px;
     margin: 0 auto;
 }
+.baslik {
+    color: var(--renk-beyaz);
+    font-size: 3rem;
+}
 :root {
     scroll-behavior: smooth;
 
-
-    --renk-gökyüzüsağ:#EDEAE4;
-    --renk-gökyüzüsol:#E8E9ED;
-    --renk-gökyüzüüst:#F6F6FE;
-    --renk-güneş:#E8C8A9;
-    --renk-saç:#0B0C07;
-    --renk-lacivertmont:#0B0C0D;
-    --renk-çantalacivert:#111425;
-    --renk-kaldırım:#7C7C88;
-    --renk-deniz:#AFB1B5;
-    --renk-bayrak:#DA98A1;
+    --renk-beyaz:#F6F6FE;
+    
 
     --image-ovallik:16px;
     --image-ovallik2:32px;
@@ -37,13 +37,50 @@ a {
 li {
     list-style-type: none;
 }
+.t-center {
+    text-align: center;
+}
+.a-center {
+    align-items: center;
+}
+
 .flex-kutu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 }
 .italic {
     font-style: italic;
 }
-    
+header {
+    padding: 0.5rem 4rem;
+    border-radius: 10px;
+}
+#yancizgi {
+    position: fixed;
+    left: 15px;
+}
+.aralar {
+    margin:2rem 0 ;
+    padding-right:2rem ;
+}
+.aralar a,ol {
+    color: white;
+}
+.f-aralar a {
+    margin: 0.7rem;
+}
+.resim {
+    width: 900px;
+    border-radius: var(--image-ovallik);
+}
+footer {
+    margin-top: 5rem;
+}
+.h2-birinci {
+    font-size:2rem ;
+}
+.p-birinci {
+    font-size: 1.2rem;
+}
