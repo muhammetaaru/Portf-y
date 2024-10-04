@@ -14,6 +14,9 @@ body {
 img {
     max-width: 100%;
 }
+p {
+   text-align: justify;
+}
 a {
     text-decoration: none;
 }
@@ -28,7 +31,9 @@ a {
 :root {
     scroll-behavior: smooth;
 
-    --renk-beyaz:#F6F6FE;
+    --renk-beyaz:#E0E2DF;
+    --renk-beyazo:#e0e2dfad;
+    --renk-siyah:#010101;
     
 
     --image-ovallik:16px;
@@ -58,8 +63,12 @@ header {
     border-radius: 10px;
 }
 #yancizgi {
-    position: fixed;
-    left: 15px;
+    position: absolute;
+    top: 40%;    
+}
+.column {
+    display: flex;
+    column-gap: 2rem;
 }
 .aralar {
     margin:2rem 0 ;
@@ -83,4 +92,38 @@ footer {
 }
 .p-birinci {
     font-size: 1.2rem;
+}
+#hakkında {
+    padding: 1rem;  
+    background-color: var(--renk-beyazo);
+    border-radius:var(--image-ovallik2) ;
+}
+.kucukresim {
+    border-radius: var(--image-ovallik);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right:300px;
+
+    z-index: 2;
+}
+.birkik {
+    display: flex;
+    margin-right: 13%;
+}
+.bir, .iki {
+    background-color:var(--renk-beyazo);
+    width: 500px;
+    height: 400px;
+    border: 1px solid var(--renk-siyah);
+}
+.iki {
+    position: absolute;
+    right:23.5%;
+    top: 50%;
+
+    z-index: 1;
+}
+.bir div{
+    font-size: 0.9rem;
 }
